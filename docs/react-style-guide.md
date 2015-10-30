@@ -105,9 +105,10 @@ class SampleComponent extends Component {
 
   static defaultProps = { ... };
 
+  state = { ... };
+
   constructor() {
     super();
-    this.state = { ... };
   }
 
   componentDidMount() {
